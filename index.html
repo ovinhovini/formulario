@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8">
@@ -9,7 +9,19 @@
   </head>
   <body>
     <div id="container">
-      
+      <form action="https://api.staticforms.xyz/submit" method="post">
+        <input type="hidden" name="accessKey" value="8b5d10c8-8604-45c9-b999-e1cc9ee3223f">
+        <div>
+          <input type="text" name="name" placeholder="Your Name">
+        </div>
+        <div>
+          <input type="text" name="email" placeholder="Your Email" />
+        </div>
+        <div>
+          <textarea name="message"></textarea>
+        </div>
+        <input type="submit" value="Submit" />
+      </form>
     </div>
   </body>
 </html>
