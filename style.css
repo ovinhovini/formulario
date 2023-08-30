@@ -20,7 +20,7 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 
   background-color: rgba(255, 255, 255, 0.548);
   border-radius: 55px;
   padding-top: 45px;
-
+  flex-direction: column;
   display: flex;
   justify-content: center;
 }
@@ -32,9 +32,13 @@ form{
   gap: 20px;
 }
 
-input {
+.i1 {
   background-color: transparent;
+  height: 25px;
+  width: 194px;
+  padding-left: 6px;
 }
 textarea {
   background-color: transparent;
+  width: 200px;
 }
